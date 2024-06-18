@@ -11,7 +11,7 @@
 /* li박스 숨기기 */
 .header_nav header nav .nav_bg { display: none; position: absolute; width: 100%; z-index: 100; border-top: 1px solid #d9d9d9; height: 226px; background-color: white; top: 100px; left: 0; }
 .header_nav header .nav_icons {margin-left: 200px; margin-top: 30px; display: flex;}
-.header_nav header .nav_icons a { margin-right: 10px; align-items: center;} 
+.header_nav header .nav_icons a { margin-right: 10px; align-items: center; display: flex;} 
 .header_nav header .nav_icons a span{ color: red; font-weight: 600;}
 main .bg1 .swiper-pagination {left: 80%; top: 150px; height: max-content; width: max-content;}
 main .bg1 .swiper-pagination .swiper-pagination-bullet {width: 10px; height: 10px; background-color: #808080; margin-left: 10px;}
@@ -53,8 +53,8 @@ main .bg1 .swiper-pagination .swiper-pagination-bullet-active {width: 10px; heig
 .bg5 .bg5_wrap .cosmetics_wrap .cosmetics .swiper-wrapper .cosmetics3 a .box h1{font-size: 1.25rem; margin: 11px;font-weight: 500;}
 .bg5 .bg5_wrap .cosmetics_wrap .cosmetics .swiper-wrapper .cosmetics4 a .box {text-align: center; padding: 10px 10px;}
 .bg5 .bg5_wrap .cosmetics_wrap .cosmetics .swiper-wrapper .cosmetics4 a .box h1{font-size: 1.25rem; margin: 11px; font-weight: 500;}
-.bg5 .bg5_wrap .cosmetics_wrap.swiper-button-prev{color: black;}
-.bg5 .bg5_wrap .cosmetics_wrap.swiper-button-next{color: black;}
+.bg5 .bg5_wrap .cosmetics_wrap .swiper-button-prev{color: black;}
+.bg5 .bg5_wrap .cosmetics_wrap .swiper-button-next{color: black;}
 /* ======================================================================================bg6================================================================================================= */
 .bg6{margin-top: 162px; text-align: center;}
 .bg6 h3{font-size: 3rem; margin-bottom: 20px; }
