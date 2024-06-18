@@ -10,7 +10,7 @@
 .header_nav header nav .gnb li .snb li {position: relative; z-index: 200; line-height: 190%;  display: none;}
 /* li박스 숨기기 */
 .header_nav header nav .nav_bg { display: none; position: absolute; width: 100%; z-index: 100; border-top: 1px solid #d9d9d9; height: 226px; background-color: white; top: 100px; left: 0; }
-.header_nav header .nav_icons {margin-left: 200px; margin-top: 30px; display: flex;}
+.header_nav header .nav_icons {margin-left: 200px;  display: flex;}
 .header_nav header .nav_icons a { margin-right: 10px; align-items: center; display: flex;} 
 .header_nav header .nav_icons a span{ color: red; font-weight: 600;}
 main .bg1 .swiper-pagination {left: 80%; top: 150px; height: max-content; width: max-content;}
@@ -27,7 +27,7 @@ main .bg1 .swiper-pagination .swiper-pagination-bullet-active {width: 10px; heig
 .bg2 .bg2_1_detail p span{display: block; font-size: 1.25rem; padding-bottom: 28px; font-weight: 600; padding-top: 309px; color: red;}
 .bg2 .bg2_1_detail p em{display: block; font-size: 3rem; font-weight: 700; line-height: 1.3; margin-bottom: 17px;}
 .bg2 .bg2_1_detail p .hash{display: block; font-size: 0.938rem; color: black; line-height: 1.5; margin-bottom: 77px; font-weight: 400; color: #535353;}
-.bg2 .bg2_1_detail p a{display: block;  font-size: 0.938;font-weight: 400; border-bottom: 1px solid black; width: 80px; padding-bottom: 2px;}
+.bg2 .bg2_1_detail p a{display: block;  font-size: 0.938rem;font-weight: 400; border-bottom: 1px solid black; width: 80px; padding-bottom: 2px;}
 /* ======================================================================================bg3================================================================================================= */
 .bg3{display: flex; margin-bottom: 113px;}
 .bg3 h2{ display: inline-block; margin-top: 179px; margin-left: 252px;}
@@ -36,7 +36,7 @@ main .bg1 .swiper-pagination .swiper-pagination-bullet-active {width: 10px; heig
 .bg3 .bg2_1_detail p span{display: block; font-size: 1.25rem; padding-bottom: 28px; font-weight: 600; padding-top: 309px; color: red;}
 .bg3 .bg2_1_detail p em{display: block; font-size: 3rem; font-weight: 700; line-height: 1.3; margin-bottom: 17px;}
 .bg3 .bg2_1_detail p .hash{display: block; font-size: 0.938rem; color: black; line-height: 1.5; margin-bottom: 77px; font-weight: 400; color: #535353;}
-.bg3 .bg2_1_detail p a{display: block;  font-size: 0.938;font-weight: 400; border-bottom: 1px solid black; width: 80px; padding-bottom: 2px;}
+.bg3 .bg2_1_detail p a{display: block;  font-size: 0.938rem;font-weight: 400; border-bottom: 1px solid black; width: 80px; padding-bottom: 2px;}
 .seemore {border: 1px solid #d9d9d9; text-align: center; width: 463px; border-radius: 30px; margin: 0 auto; padding: 20px 0;}
 /* ======================================================================================bg4================================================================================================= */
 .bg4 {margin-top: 174px; height: 1079px; overflow: hidden;}
