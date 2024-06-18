@@ -1,0 +1,79 @@
+
+.side_nav { z-index: 999; top: 420px; left: 1760px; position: fixed; background-color: black; display: inline-block; text-align: center; border-radius: 15px; height: 420px;}
+.header_nav header{height:90px; background:#ffffff;z-index:999; display:flex; position: relative; left: 0; top: 0; }
+/* 로고 */
+.header_nav header h1{margin-left: 37px; display: flex; align-items: center;}
+.header_nav header nav {display: flex; margin-left: 400px;align-items: center;  white-space: nowrap;}  
+.header_nav header nav .gnb {display: flex; } 
+.header_nav header nav .gnb > li {margin-right: 105px; font-size: 1.125rem;position: relative;}
+/* li숨기기 */
+.header_nav header nav .gnb li .snb li {position: relative; z-index: 200; line-height: 190%;  display: none;}
+/* li박스 숨기기 */
+.header_nav header nav .nav_bg { display: none; position: absolute; width: 100%; z-index: 100; border-top: 1px solid #d9d9d9; height: 226px; background-color: white; top: 100px; left: 0; }
+.header_nav header .nav_icons {margin-left: 200px; margin-top: 30px; display: flex;}
+.header_nav header .nav_icons a { margin-right: 10px; align-items: center;} 
+.header_nav header .nav_icons a span{ color: red; font-weight: 600;}
+main .bg1 .swiper-pagination {left: 80%; top: 150px; height: max-content; width: max-content;}
+main .bg1 .swiper-pagination .swiper-pagination-bullet {width: 10px; height: 10px; background-color: #808080; margin-left: 10px;}
+main .bg1 .swiper-pagination .swiper-pagination-bullet-active {width: 10px; height: 10px; background-color: white; opacity: 75%; margin-left: 10px;}
+.visual {width: 1920px; height: 1079px;}
+.visual .slide1 {background-image: url(../images/bg1.jpg);}
+.visual .slide2 {background-image: url(../images/bg1_2.jpg);}
+/* ======================================================================================bg2================================================================================================= */
+.bg2{display: flex;}
+.bg2 h2{ display: inline-block; margin-top: 175px; margin-left: 240px;}
+.bg2 .bg2_1_detail{margin-left: 132px; }
+.bg2 .bg2_1_detail p .de{display: block; font-size: 1.125rem; }
+.bg2 .bg2_1_detail p span{display: block; font-size: 1.25rem; padding-bottom: 28px; font-weight: 600; padding-top: 309px; color: red;}
+.bg2 .bg2_1_detail p em{display: block; font-size: 3rem; font-weight: 700; line-height: 1.3; margin-bottom: 17px;}
+.bg2 .bg2_1_detail p .hash{display: block; font-size: 0.938rem; color: black; line-height: 1.5; margin-bottom: 77px; font-weight: 400; color: #535353;}
+.bg2 .bg2_1_detail p a{display: block;  font-size: 0.938;font-weight: 400; border-bottom: 1px solid black; width: 80px; padding-bottom: 2px;}
+/* ======================================================================================bg3================================================================================================= */
+.bg3{display: flex; margin-bottom: 113px;}
+.bg3 h2{ display: inline-block; margin-top: 179px; margin-left: 252px;}
+.bg3 .bg2_1_detail{margin-left: 227px; }
+.bg3 .bg2_1_detail p .de{display: block; font-size: 1.125rem; }
+.bg3 .bg2_1_detail p span{display: block; font-size: 1.25rem; padding-bottom: 28px; font-weight: 600; padding-top: 309px; color: red;}
+.bg3 .bg2_1_detail p em{display: block; font-size: 3rem; font-weight: 700; line-height: 1.3; margin-bottom: 17px;}
+.bg3 .bg2_1_detail p .hash{display: block; font-size: 0.938rem; color: black; line-height: 1.5; margin-bottom: 77px; font-weight: 400; color: #535353;}
+.bg3 .bg2_1_detail p a{display: block;  font-size: 0.938;font-weight: 400; border-bottom: 1px solid black; width: 80px; padding-bottom: 2px;}
+.seemore {border: 1px solid #d9d9d9; text-align: center; width: 463px; border-radius: 30px; margin: 0 auto; padding: 20px 0;}
+/* ======================================================================================bg4================================================================================================= */
+.bg4 {margin-top: 174px; height: 1079px; overflow: hidden;}
+.bg4 .video{position: relative; top: -500px;}
+.bg4 .video video{width:1920px;}
+/* ======================================================================================bg5================================================================================================= */
+.bg5 {margin-top: 215px;position: relative;}
+.bg5 .bg5_wrap .cosmetics_wrap .cosmetics{width: 1436px;}
+.bg5 .bg5_wrap .cosmetics_wrap .cosmetics .swiper-wrapper .cosmetics1 a .box {text-align: center; padding: 10px 10px; }
+.bg5 .bg5_wrap .cosmetics_wrap .cosmetics .swiper-wrapper .cosmetics1 a .box h1{font-size: 1.25rem; margin: 11px;font-weight: 500;}
+.bg5 .bg5_wrap .cosmetics_wrap .cosmetics .swiper-wrapper .cosmetics2 a .box {text-align: center; padding: 10px 10px;}
+.bg5 .bg5_wrap .cosmetics_wrap .cosmetics .swiper-wrapper .cosmetics2 a .box h1{font-size: 1.25rem; margin: 11px;font-weight: 500;}
+.bg5 .bg5_wrap .cosmetics_wrap .cosmetics .swiper-wrapper .cosmetics3 a .box {text-align: center; padding: 10px 10px;}
+.bg5 .bg5_wrap .cosmetics_wrap .cosmetics .swiper-wrapper .cosmetics3 a .box h1{font-size: 1.25rem; margin: 11px;font-weight: 500;}
+.bg5 .bg5_wrap .cosmetics_wrap .cosmetics .swiper-wrapper .cosmetics4 a .box {text-align: center; padding: 10px 10px;}
+.bg5 .bg5_wrap .cosmetics_wrap .cosmetics .swiper-wrapper .cosmetics4 a .box h1{font-size: 1.25rem; margin: 11px; font-weight: 500;}
+.bg5 .bg5_wrap .cosmetics_wrap.swiper-button-prev{color: black;}
+.bg5 .bg5_wrap .cosmetics_wrap.swiper-button-next{color: black;}
+/* ======================================================================================bg6================================================================================================= */
+.bg6{margin-top: 162px; text-align: center;}
+.bg6 h3{font-size: 3rem; margin-bottom: 20px; }
+.bg6 a{color: #535353;}
+.bg6 .bg6_photo{margin-top: 102px; text-align: center;}
+.bg6 .bg6_photo a img{margin-right: 27px;}
+/* ======================================================================================footer================================================================================================= */
+footer{background-color: #404345; color: white; text-align: center; margin-top: 197px;}
+footer .f_top{padding-top: 43px;}
+footer .f_top a{ color: white; margin-right: 31px; }
+footer .f_logo{margin-top: 55px;}
+footer .f_logo h2 {}
+footer .f_logo h2 img{margin-right: 10px;}
+footer .f_detail{margin-top: 34px;}
+footer .f_detail .detail1{margin-bottom: 10px;}
+footer .f_detail .detail1 span{font-weight: 700; font-size: 1.5rem;}
+footer .f_detail .detail2{}
+footer .f_sns{margin-top: 27px; margin-bottom: 39px;}
+footer .f_sns a{}
+footer .f_sns a img{margin-right: 20px;}
+footer .f_btm{}
+footer .f_btm h4{padding-bottom: 88px;}
